@@ -81,3 +81,19 @@ then we can use checkout to go to the new branch
 or we can create and go in one line 
 we use:
 git checkout -b newbranch
+
+now To link the local and the online repo 
+we first use :
+ git push --set-upstream origin new-branch
+then 
+git push -u origin new-branch
+
+now we can update online repo using git push 
+and update local repo using git pull 
+
+ after finishing implementing the feature we can 
+ make a pull request on github then our team lead will check the changes compare then 
+ merge it and it will be  added to the main branch
+ we can add for the merge a header whos made the pull request with a msgg with the changes
+
+ 
