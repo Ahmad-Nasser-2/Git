@@ -95,5 +95,7 @@ and update local repo using git pull
  make a pull request on github then our team lead will check the changes compare then 
  merge it and it will be  added to the main branch
  we can add for the merge a header whos made the pull request with a msgg with the changes
-
+alright after updating our online repo and merged the branch with the main branch 
+we use git checkout main to go to main branch 
+then we use git pull 
  
