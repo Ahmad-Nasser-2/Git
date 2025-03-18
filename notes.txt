@@ -9,3 +9,55 @@ git status to see untracked files and commits
 git add file name " to add a specific file"
 git commit -m "msg describing the changes ex: add hello.js file "
 -m: argument stands for msg
+
+
+git log //to chech the history of commit 
+
+by running git log i get something like this
+a commit hash id 
+author of the commit 
+and date 
+
+commit 02380f5da4b2135107406eb718fe1e131a2cb023 (HEAD -> master)
+Author: Ahmad <Ahmadnasser3971@gmail.com>
+Date:   Tue Mar 18 02:36:17 2025 +0200
+
+    added hello.css and hello.html
+
+commit b9817681c1bce550d9976ca781a4d5b9f02f1e0c
+Author: Ahmad <Ahmadnasser3971@gmail.com>
+Date:   Tue Mar 18 02:32:52 2025 +0200
+
+    added notes.txt this time
+
+commit 8b0496779503f7bf15e83d53751def95d0ae54db
+Author: Ahmad <Ahmadnasser3971@gmail.com>
+Date:   Tue Mar 18 02:29:15 2025 +0200
+
+to go back to an older version of a commit 
+i copy the hash id of the commit and use the command
+
+git checkout b9817681c1bce550d9976ca781a4d5b9f02f1e0c
+here example it will take me to when i added the notes.txt file to the tracked files
+before adding hello.html and hello.css
+note files will kinda disapper cuz tracked files in a tree so by checking out i change the pointer of the head
+by this im in a state called detached state where the pointer of the head doesnt point to the latest commit 
+i can switch to a different branch here 
+
+--now to go back to the main branch simply with
+
+git checkout main/master  
+to change name of master branch from master to main:
+git branch -m master main
+
+if i want to check out back and discard any commits i added in the detached head state
+git checkout -f main
+
+Github::common remote repo 
+linking our local repo to the online repo
+copy link of the repo from github then
+we use :
+-git remote add origin https://github.com/Ahmad-Nasser-2/Git.git
+//Now to push our local commits to our github repo :
+we use:
+- git push -u origin main
