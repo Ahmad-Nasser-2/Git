@@ -61,3 +61,23 @@ we use :
 //Now to push our local commits to our github repo :
 we use:
 - git push -u origin main
+
+//now to create a new branch 
+we use:
+git branch branch-name 
+note: that if we created a branch when we are on the main
+it will inherete all the code of the main 
+and later on for example if we want we can merge the branch into the main
+think of it as working on a feature or fixing a bug after creating the branch for that feature 
+finish working on it we can merge the branch to the main
+
+now if we were on a branch and created a branch the new branch will inherit from the old branch not  the main 
+
+we can specify the branch and the source 
+we use:
+git branch branch-name source-name
+
+then we can use checkout to go to the new branch 
+or we can create and go in one line 
+we use:
+git checkout -b newbranch
