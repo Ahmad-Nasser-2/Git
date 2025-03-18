@@ -1,0 +1,11 @@
+
+//to config username and email
+git config --global user.name "Ahmad"
+git config --global user.email "Ahmadnasser@gmail.com"
+
+git add . to add all new files 
+git status to see untracked files and commits
+
+git add file name " to add a specific file"
+git commit -m "msg describing the changes ex: add hello.js file "
+-m: argument stands for msg
