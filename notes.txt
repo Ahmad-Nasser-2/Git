@@ -103,3 +103,5 @@ then we use git pull to update our local repo
 --Merge conflicts : Means couldnt merge something cuz it conflict with the main 
 example lets  make 2 branches 
 
+hey this div1 
+testing merge conflit
