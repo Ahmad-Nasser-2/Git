@@ -110,3 +110,9 @@ now trying writing with div 2
 now git revert 
     git  reset 
     git  stash
+    
+    - reveret is kinda like rest but with commits? its like do an undo 
+    -rest is an undo 
+    -stash is saving a certain code somewhere that can be used lately example working on a feature then u were asked to do 
+    another urgent feature u then have to stop with ur  own feature so it be saved somewhere u keep track of the code u wrote
+     
