@@ -99,3 +99,7 @@ alright after updating our online repo and merged the branch with the main branc
 we use git checkout main to go to main branch 
 then we use git pull 
  
+ ---
+this is written with dev-1 
+testing merge conflict
+----
