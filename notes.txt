@@ -116,3 +116,5 @@ now git revert
     -stash is saving a certain code somewhere that can be used lately example working on a feature then u were asked to do 
     another urgent feature u then have to stop with ur  own feature so it be saved somewhere u keep track of the code u wrote
      
+     //now this is a code i had to write before implementing the feature i saved in the stash 
+     
