@@ -106,3 +106,7 @@ example lets  make 2 branches
 hey this div1 
 testing merge conflit
 now trying writing with div 2
+
+now git revert 
+    git  reset 
+    git  stash
